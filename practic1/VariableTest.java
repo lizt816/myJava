@@ -108,9 +108,40 @@ class VariableTest {
 
   String str9 = "20";
   int myInt = Integer.parseInt(str9);
-  System.out.println(myInt+10);
+  // System.out.println(myInt+10);
+
+  // 练习：
+  // 定义: 姓名  年龄  性别  体重  婚姻  联系方式
+
+  String name = "涛哥";
+  int age = 24;
+  char gender = '男';
+  double weight = 123.5;
+  boolean isMarried = false;
+  String phoneNumbe = "13012341234";
 
 
+
+  int x = 5;
+  int xs = 12;
+  // System.out.println( xs % x );  // 模运算 取余数
+
+
+  int ajj = 0;
+  int abb = ajj++;
+  // System.out.println( abb );  // 值为0
+
+  int a=10,b=20;
+
+  String mySss = "111";
+
+  mySss = a > b?"222":"333";
+  
+  // System.out.println(mySss);
+ }
+
+ public static void exchangeValue(int a,int b){
+  
  }
 
  // 案例一个方法
