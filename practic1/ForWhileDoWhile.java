@@ -1,6 +1,3 @@
-/**
-    * 主讲解循环结构
-   */
 class ForWhileDoWhile{
    public static void main(String[] args){
      // for(int i = 0; i < 5;i++){
@@ -58,22 +55,43 @@ class ForWhileDoWhile{
      */
 
       // 质数 ：只能被1和他本身整除的自然数,也叫因数,如 3 不能被整除 ，4 可以被整除 因为2*2就是4
-      for (int i = 2; i <= 100; i++) {
+      // 方法一
+      // int count = 0;
+      // for (int i = 2; i <= 100; i++) {
+      //  boolean isFlag = true;
+      //  for (int j = 2; j < i; j++) {
+      //   if(i % j == 0){
+      //    isFlag = false;
+      //   }
+      //  }
+      //  if(isFlag){
+      //   count++;   // 总数
+      //   System.out.println(i);
+      //  }
+      // }
+
+
+      // 方法二
+      // 优化
+      // 观察时间的消耗
+      long start = System.currentTimeMillis();
+      int count = 0;
+      for (int i = 2; i <= 100000; i++) {
        boolean isFlag = true;
-       for (int j = 2; j < i; j++) {
+       // Math.sqrt 装成平方根  如9 就等于 3
+       for (int j = 2; j <= Math.sqrt(i); j++) {
         if(i % j == 0){
          isFlag = false;
+         break;
         }
        }
        if(isFlag){
-        System.out.println(i);
+        count++;   // 总数
        }
       }
+      long end = System.currentTimeMillis();
 
-
-      // 优化
-
-
-
+      System.out.println(count);
+      System.out.println("消耗了的时间为:" + (end - start));
    }
 }

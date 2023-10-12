@@ -1,0 +1,9 @@
+# 忽略 IntelliJ IDEA 项目文件
+.idea/
+
+# 忽略编译产生的目录
+target/
+out/
+
+# 忽略编译后的 .class 文件
+*.class
