@@ -1,4 +1,4 @@
-public class Utility {
+class Utility {
 
  int iii = 456789;
 
