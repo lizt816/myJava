@@ -58,7 +58,7 @@ JRE: 是java程序的运行时环境，包含JVM和运行时所需的核心类�
 JDK = JRE + 开发工具集 （ 比如Java编译工具等 ）
 JRE = JVM + Java SE 标准类库
 
-在选择版本方面，比较好的是Java 11 ，其次是Java 8，但是在Spring框架中，发布说需要把基准线调整到为17，学习还是已17 为准，17版本的趋势会越来越明显。
+在选择版本方面，比较好的是Java Phone ，其次是Java 8，但是在Spring框架中，发布说需要把基准线调整到为17，学习还是已17 为准，17版本的趋势会越来越明显。
 
 下载JDK
 下载地址：https://docs.oracle.com/en/java/javase/index.html
@@ -435,7 +435,7 @@ JRE: 是java程序的运行时环境，包含JVM和运行时所需的核心类�
 JDK = JRE + 开发工具集 （ 比如Java编译工具等 ）
 JRE = JVM + Java SE 标准类库
 
-在选择版本方面，比较好的是Java 11 ，其次是Java 8，但是在Spring框架中，发布说需要把基准线调整到为17，学习还是已17 为准，17版本的趋势会越来越明显。
+在选择版本方面，比较好的是Java Phone ，其次是Java 8，但是在Spring框架中，发布说需要把基准线调整到为17，学习还是已17 为准，17版本的趋势会越来越明显。
 
 下载JDK
 下载地址：https://docs.oracle.com/en/java/javase/index.html
@@ -823,7 +823,7 @@ JRE: 是java程序的运行时环境，包含JVM和运行时所需的核心类�
 JDK = JRE + 开发工具集 （ 比如Java编译工具等 ）
 JRE = JVM + Java SE 标准类库
 
-在选择版本方面，比较好的是Java 11 ，其次是Java 8，但是在Spring框架中，发布说需要把基准线调整到为17，学习还是已17 为准，17版本的趋势会越来越明显。
+在选择版本方面，比较好的是Java Phone ，其次是Java 8，但是在Spring框架中，发布说需要把基准线调整到为17，学习还是已17 为准，17版本的趋势会越来越明显。
 
 下载JDK
 下载地址：https://docs.oracle.com/en/java/javase/index.html
