@@ -13,6 +13,7 @@ public class Main {
 //        声明浮点
         double[] proces = new double[]{12.0,18.1,99,1234.55};
         for (int i = 0; i < proces.length; i++) {
+
  System.out.println("proces="+proces[i]);
         }
 
@@ -36,6 +37,5 @@ public class Main {
       int[] arr2 = arrs;
         arr2[0] = 20;
         System.out.println(arrs[0]+"arrr");
-
     }
 }
