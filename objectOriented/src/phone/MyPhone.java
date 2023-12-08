@@ -1,4 +1,4 @@
-package Phone;
+package phone;
 
 /**
  * ClassName: P.Phone
@@ -9,7 +9,7 @@ package Phone;
  * @Create 2023/11/20 15:10
  * @version: 1.0
  */
-public class Phone {
+public class MyPhone {
     String name;  //
     double price; //
 
@@ -30,5 +30,10 @@ public class Phone {
 
     public void priceAdd(){
         price++;
+    }
+
+    public void fun(int i,int ... num){
+        System.out.println(i+"-1");
+        System.out.println(num[0]+"-2");
     }
 }
