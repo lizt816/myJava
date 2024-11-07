@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/chapter01/chapter01.iml" filepath="$PROJECT_DIR$/chapter01/chapter01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/objectOriented/objectOriented.iml" filepath="$PROJECT_DIR$/objectOriented/objectOriented.iml" />
-      <module fileurl="file://$PROJECT_DIR$/practicArrAlgorithm/practicArrAlgorithm.iml" filepath="$PROJECT_DIR$/practicArrAlgorithm/practicArrAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myJava/myJava.iml" filepath="$PROJECT_DIR$/myJava/myJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/practiceArr/practiceArr.iml" filepath="$PROJECT_DIR$/practiceArr/practiceArr.iml" />
     </modules>
   </component>
 </project>

@@ -228,7 +228,7 @@ this - false - null
 
 *** 定义变量： 
 ** 中文如果不能被javac MyJava.java 这样识别，就使用其他命令：
-* javac -encoding UTF-8 HelloWrold.java
+** javac -encoding UTF-8 HelloWrold.java
 ** 基本数据类型：8种
 整型：byte \ short \ int \ long
 浮点型：float \ doubl
